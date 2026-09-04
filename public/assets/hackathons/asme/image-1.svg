@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="asme1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="50%" stop-color="#0369a1"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#asme1)"/>
+  <rect x="150" y="100" width="500" height="300" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="10 6"/>
+  <text x="400" y="220" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="700" text-anchor="middle">ASME HACKATHON</text>
+  <text x="400" y="260" fill="#bae6fd" font-family="system-ui, sans-serif" font-size="16" letter-spacing="2" text-anchor="middle">HARDWARE & SOFTWARE INTEGRATION</text>
+  <text x="400" y="310" fill="#e0f2fe" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">Engineering Innovation Challenge</text>
+</svg>

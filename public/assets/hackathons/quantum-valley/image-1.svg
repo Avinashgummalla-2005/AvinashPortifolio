@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="qv1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#31104b"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#qv1)"/>
+  <circle cx="400" cy="250" r="180" fill="none" stroke="url(#glow1)" stroke-width="2" opacity="0.4"/>
+  <circle cx="400" cy="250" r="120" fill="none" stroke="#06b6d4" stroke-width="1.5" stroke-dasharray="8 8"/>
+  <path d="M 300 250 Q 400 120 500 250 T 700 250" stroke="#a855f7" stroke-width="3" fill="none" opacity="0.8"/>
+  <text x="400" y="230" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="700" text-anchor="middle">QUANTUM VALLEY HACKATHON</text>
+  <text x="400" y="270" fill="#a5f3fc" font-family="system-ui, sans-serif" font-size="16" letter-spacing="2" text-anchor="middle">STAGE 1: QUANTUM ALGORITHMS PROTOTYPE</text>
+  <rect x="250" y="320" width="300" height="40" rx="20" fill="rgba(255,255,255,0.05)" stroke="url(#glow1)" stroke-width="1"/>
+  <text x="400" y="345" fill="#e2e8f0" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">Team Collaboration & Build Phase</text>
+</svg>
