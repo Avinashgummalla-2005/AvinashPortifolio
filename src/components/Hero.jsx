@@ -14,7 +14,7 @@ export default function Hero() {
       <img
         src={personal.heroImage}
         alt="Avinash Gummalla"
-        className="absolute inset-0 w-full h-full object-cover object-[center_35%] sm:object-[center_38%] select-none"
+        className="absolute inset-0 w-full h-full object-cover object-[center_40%] sm:object-[center_43%] select-none"
       />
 
       {/* 2. CINEMATIC GRADIENT & VIGNETTE OVERLAY */}
@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="absolute bottom-10 left-5 sm:left-10 w-72 sm:w-96 h-72 sm:h-96 bg-cyan-500/15 rounded-full blur-[100px] sm:blur-[140px] pointer-events-none" />
 
       {/* 3. ABSOLUTE/OVERLAY CONTENT CONTAINER */}
-      <div className="relative w-full min-h-screen sm:h-screen sm:min-h-[750px] overflow-hidden flex items-end md:items-center justify-center bg-[#050509]">
+      <div className="relative z-10 max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 pb-16 sm:pb-20 md:pb-0 pt-24 sm:pt-28 md:pt-20 flex flex-col justify-end md:justify-center">
         
         {/* Overlay Composition (Left spacer expanded on desktop, details card responsive offset) */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
@@ -39,7 +39,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.2 }}
-            className="md:col-span-7 lg:col-span-6 md:translate-x-6 lg:translate-x-10 space-y-4 sm:space-y-5 text-left bg-black/50 md:bg-black/35 backdrop-blur-md p-5 sm:p-8 md:p-9 rounded-3xl border border-white/10 shadow-2xl w-full"
+            className="md:col-span-7 lg:col-span-6 md:translate-x-4 lg:translate-x-8 space-y-4 sm:space-y-5 text-left bg-black/50 md:bg-black/35 backdrop-blur-md p-5 sm:p-8 md:p-9 rounded-3xl border border-white/10 shadow-2xl w-full"
           >
             {/* Status Pill */}
             <div className="inline-flex items-center gap-2.5 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-purple-950/80 border border-purple-500/40 text-purple-300 text-[11px] sm:text-xs font-mono">
