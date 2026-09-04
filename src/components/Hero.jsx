@@ -14,7 +14,7 @@ export default function Hero() {
       <img
         src={personal.heroImage}
         alt="Avinash Gummalla"
-        className="absolute inset-0 w-full h-full object-cover object-[center_35%] sm:object-[center_38%] select-none"
+        className="absolute inset-0 w-full h-full object-cover object-[center_40%] sm:object-[center_43%] select-none"
       />
 
       {/* 2. CINEMATIC GRADIENT & VIGNETTE OVERLAY */}
