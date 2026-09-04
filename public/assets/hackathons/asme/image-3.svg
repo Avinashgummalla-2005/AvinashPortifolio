@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="asme3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14532d"/>
+      <stop offset="50%" stop-color="#166534"/>
+      <stop offset="100%" stop-color="#15803d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#asme3)"/>
+  <rect x="200" y="120" width="400" height="260" rx="12" fill="rgba(255,255,255,0.05)" stroke="#4ade80" stroke-width="2"/>
+  <text x="400" y="220" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="700" text-anchor="middle">ASME HACKATHON</text>
+  <text x="400" y="260" fill="#86efac" font-family="system-ui, sans-serif" font-size="16" letter-spacing="2" text-anchor="middle">EXHIBITION & RECOGNITION</text>
+  <text x="400" y="310" fill="#dcfce7" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">Final Showcase & Certificate Awarding</text>
+</svg>

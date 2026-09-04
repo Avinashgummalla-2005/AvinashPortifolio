@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="qv2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#qv2)"/>
+  <rect x="100" y="80" width="600" height="340" rx="16" fill="rgba(255,255,255,0.03)" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="400" y="210" fill="#ffffff" font-family="system-ui, sans-serif" font-size="26" font-weight="700" text-anchor="middle">QUANTUM VALLEY HACKATHON</text>
+  <text x="400" y="255" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="16" letter-spacing="2" text-anchor="middle">LIVE CODE DEMO & ARCHITECTURE</text>
+  <path d="M 200 320 L 300 320 L 350 360 L 450 360 L 500 320 L 600 320" stroke="#2dd4bf" stroke-width="2" fill="none" opacity="0.6"/>
+  <text x="400" y="300" fill="#cbd5e1" font-family="system-ui, sans-serif" font-size="14" text-anchor="middle">AI Model Training & Optimization</text>
+</svg>
